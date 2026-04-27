@@ -1,0 +1,24 @@
+auto_run = true  #true or false
+
+process_num = 8        #number of threads
+
+light_folder = F:\AP Research\benchmark\lightcurves      # normalized light curves folder
+
+flare_threshold = 4     #in my research, I stipulated data points lie above 4σ will be flare candidates
+
+noise_rate = 0.35  #The allowable noise ratio at the flare
+
+save_flare_picture = true     #true or false
+
+save_all_picture = true     #true or false
+
+show_picture = false     #true or false
+
+fit_tendency = 1.2       # The smaller this value is, the more the model tends to use higher-order polynomials for fitting (only effective when auto_run  is True) 
+
+candence_tendency = 1.7       # The smaller this value is, the more the model tends to use a smaller fitting width for fitting (only effective when auto_run is True)
+
+fit_time_scale = 0.5     #fitting width (only effective when auto_run is false)
+
+fit_order = 10         #The degree of the polynomial used(only effective when auto_run is false)
+
